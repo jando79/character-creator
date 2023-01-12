@@ -3,15 +3,36 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <script src="js/scripts.js"></script>
 <head>
-  <title></title>
+  <title>character-creator</title>
 </head>
 
 <body>
+  <h1>Build Your Own Character</h1>
+  <form id="character-creator">
+    <h4><label for="input1">Character Name:</label>
+    <input id="input1" type="text"></h4>
+    <br>
+    <h4><label for="input2">Type of Creature:</label></h4>
+      <input type="radio" name="operator" value="human">human</input><br>
+      <input type="radio" name="operator" value="monster">monster</input><br>
+      <input type="radio" name="operator" value="animal">animal</input><br>
+    <br>
+    <h4><label for="input3">Disposition:</label></h4>
+    <select id="disposition">
+      <option>Empathetic</option>
+      <option>Self-Absorbed</option>
+      <option>Psychopath</option>
+    </select><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit">Submit Selection</button>
+  </form>
 
-
-
-
-
+  <div>
+    
+  </div>
 
 </body>
 </html>
