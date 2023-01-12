@@ -15,12 +15,11 @@
     <h4><label for="input2">Type of Creature:</label></h4>
       <input type="radio" name="operator" value="human">human</input><br>
       <input type="radio" name="operator" value="monster">monster</input><br>
-      <input type="radio" name="operator" value="animal">animal</input><br>
     <br>
+
     <h4><label for="input3">Disposition:</label></h4>
     <select id="disposition">
       <option>Empathetic</option>
-      <option>Self-Absorbed</option>
       <option>Psychopath</option>
     </select><br>
     <br>
@@ -30,8 +29,20 @@
     <button type="submit">Submit Selection</button>
   </form>
 
-  <div>
-    
+  <div id="psycho-human" class="hidden">
+    <img src="human.png">
+  </div>
+
+  <div id="psycho-monster" class="hidden">
+    <img src="monster.jpg">
+  </div>
+
+  <div id="nice-monster" class="hidden">
+    <img src="nice-monster.jpg">
+  </div>
+
+  <div id="nice-person" class="hidden">
+    <img src="nice-person.png">
   </div>
 
 </body>
